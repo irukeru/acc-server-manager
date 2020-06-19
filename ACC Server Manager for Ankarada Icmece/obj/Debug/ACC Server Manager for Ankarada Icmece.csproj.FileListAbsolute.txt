@@ -1,0 +1,10 @@
+C:\Users\irukeru\source\repos\ACC Server Manager for Ankarada Icmece\ACC Server Manager for Ankarada Icmece\bin\Debug\ACC Server Manager for Ankarada Icmece.exe.config
+C:\Users\irukeru\source\repos\ACC Server Manager for Ankarada Icmece\ACC Server Manager for Ankarada Icmece\bin\Debug\ACC Server Manager for Ankarada Icmece.exe
+C:\Users\irukeru\source\repos\ACC Server Manager for Ankarada Icmece\ACC Server Manager for Ankarada Icmece\bin\Debug\ACC Server Manager for Ankarada Icmece.pdb
+C:\Users\irukeru\source\repos\ACC Server Manager for Ankarada Icmece\ACC Server Manager for Ankarada Icmece\obj\Debug\ACC Server Manager for Ankarada Icmece.csprojAssemblyReference.cache
+C:\Users\irukeru\source\repos\ACC Server Manager for Ankarada Icmece\ACC Server Manager for Ankarada Icmece\obj\Debug\ACC_Server_Manager_for_Ankarada_Icmece.Form1.resources
+C:\Users\irukeru\source\repos\ACC Server Manager for Ankarada Icmece\ACC Server Manager for Ankarada Icmece\obj\Debug\ACC_Server_Manager_for_Ankarada_Icmece.Properties.Resources.resources
+C:\Users\irukeru\source\repos\ACC Server Manager for Ankarada Icmece\ACC Server Manager for Ankarada Icmece\obj\Debug\ACC Server Manager for Ankarada Icmece.csproj.GenerateResource.cache
+C:\Users\irukeru\source\repos\ACC Server Manager for Ankarada Icmece\ACC Server Manager for Ankarada Icmece\obj\Debug\ACC Server Manager for Ankarada Icmece.csproj.CoreCompileInputs.cache
+C:\Users\irukeru\source\repos\ACC Server Manager for Ankarada Icmece\ACC Server Manager for Ankarada Icmece\obj\Debug\ACC Server Manager for Ankarada Icmece.exe
+C:\Users\irukeru\source\repos\ACC Server Manager for Ankarada Icmece\ACC Server Manager for Ankarada Icmece\obj\Debug\ACC Server Manager for Ankarada Icmece.pdb
