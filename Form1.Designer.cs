@@ -48,30 +48,32 @@
             this.label2 = new System.Windows.Forms.Label();
             this.sessionPage = new System.Windows.Forms.TabPage();
             this.label26 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.maximumCarSlotsTextBox = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.spectatorPasswordTextBox = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.racecraftRatingRequirementTextBox = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.safetyRatingRequirementTextBox = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.trackMedalsRequirementComboBox = new System.Windows.Forms.ComboBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.passwordTextBox = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.adminPasswordTextBox = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.serverNameTextBox = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.eventPage = new System.Windows.Forms.TabPage();
+            this.trackComboBox = new System.Windows.Forms.ComboBox();
+            this.label28 = new System.Windows.Forms.Label();
             this.trackPage = new System.Windows.Forms.TabPage();
             this.weatherPage = new System.Windows.Forms.TabPage();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -85,6 +87,7 @@
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.exitMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.serverToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.applyServerConfigurationMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.startServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stopServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -92,10 +95,28 @@
             this.label1 = new System.Windows.Forms.Label();
             this.serverStatusLabel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.applyServerConfigurationMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label29 = new System.Windows.Forms.Label();
+            this.preRaceWaitingTimeSecondsTextBox = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.sessionOverTimeSecondsTextBox = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.ambientTempTextBox = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.cloudLevelTextBox = new System.Windows.Forms.TextBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.rainTextBox = new System.Windows.Forms.TextBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.weatherRandomnessTextBox = new System.Windows.Forms.TextBox();
+            this.label40 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.generalConfigurationPage.SuspendLayout();
             this.sessionPage.SuspendLayout();
+            this.eventPage.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -289,25 +310,25 @@
             // sessionPage
             // 
             this.sessionPage.Controls.Add(this.label26);
-            this.sessionPage.Controls.Add(this.textBox10);
+            this.sessionPage.Controls.Add(this.maximumCarSlotsTextBox);
             this.sessionPage.Controls.Add(this.label27);
             this.sessionPage.Controls.Add(this.label24);
-            this.sessionPage.Controls.Add(this.textBox9);
+            this.sessionPage.Controls.Add(this.spectatorPasswordTextBox);
             this.sessionPage.Controls.Add(this.label25);
             this.sessionPage.Controls.Add(this.label22);
-            this.sessionPage.Controls.Add(this.textBox8);
+            this.sessionPage.Controls.Add(this.racecraftRatingRequirementTextBox);
             this.sessionPage.Controls.Add(this.label23);
             this.sessionPage.Controls.Add(this.label20);
-            this.sessionPage.Controls.Add(this.textBox7);
+            this.sessionPage.Controls.Add(this.safetyRatingRequirementTextBox);
             this.sessionPage.Controls.Add(this.label21);
-            this.sessionPage.Controls.Add(this.comboBox1);
+            this.sessionPage.Controls.Add(this.trackMedalsRequirementComboBox);
             this.sessionPage.Controls.Add(this.label18);
             this.sessionPage.Controls.Add(this.label19);
             this.sessionPage.Controls.Add(this.label16);
-            this.sessionPage.Controls.Add(this.textBox6);
+            this.sessionPage.Controls.Add(this.passwordTextBox);
             this.sessionPage.Controls.Add(this.label17);
             this.sessionPage.Controls.Add(this.label14);
-            this.sessionPage.Controls.Add(this.textBox5);
+            this.sessionPage.Controls.Add(this.adminPasswordTextBox);
             this.sessionPage.Controls.Add(this.label15);
             this.sessionPage.Controls.Add(this.label12);
             this.sessionPage.Controls.Add(this.serverNameTextBox);
@@ -328,12 +349,12 @@
             this.label26.TabIndex = 33;
             this.label26.Text = resources.GetString("label26.Text");
             // 
-            // textBox10
+            // maximumCarSlotsTextBox
             // 
-            this.textBox10.Location = new System.Drawing.Point(254, 306);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(238, 20);
-            this.textBox10.TabIndex = 32;
+            this.maximumCarSlotsTextBox.Location = new System.Drawing.Point(254, 306);
+            this.maximumCarSlotsTextBox.Name = "maximumCarSlotsTextBox";
+            this.maximumCarSlotsTextBox.Size = new System.Drawing.Size(238, 20);
+            this.maximumCarSlotsTextBox.TabIndex = 32;
             // 
             // label27
             // 
@@ -355,12 +376,12 @@
             this.label24.Text = "( Password to enter the server as spectator. Must be different to “password” if b" +
     "oth is set )";
             // 
-            // textBox9
+            // spectatorPasswordTextBox
             // 
-            this.textBox9.Location = new System.Drawing.Point(179, 136);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(313, 20);
-            this.textBox9.TabIndex = 29;
+            this.spectatorPasswordTextBox.Location = new System.Drawing.Point(179, 136);
+            this.spectatorPasswordTextBox.Name = "spectatorPasswordTextBox";
+            this.spectatorPasswordTextBox.Size = new System.Drawing.Size(313, 20);
+            this.spectatorPasswordTextBox.TabIndex = 29;
             // 
             // label25
             // 
@@ -382,12 +403,12 @@
             this.label22.Text = "( Defines the Safety Rating (RC) that a user must have to join this server (value" +
     "s -1, 0, …. 99) )";
             // 
-            // textBox8
+            // racecraftRatingRequirementTextBox
             // 
-            this.textBox8.Location = new System.Drawing.Point(254, 266);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(238, 20);
-            this.textBox8.TabIndex = 26;
+            this.racecraftRatingRequirementTextBox.Location = new System.Drawing.Point(254, 266);
+            this.racecraftRatingRequirementTextBox.Name = "racecraftRatingRequirementTextBox";
+            this.racecraftRatingRequirementTextBox.Size = new System.Drawing.Size(238, 20);
+            this.racecraftRatingRequirementTextBox.TabIndex = 26;
             // 
             // label23
             // 
@@ -409,12 +430,12 @@
             this.label20.Text = "( Defines the Safety Rating (SA) that a user must have to join this server (value" +
     "s -1, 0, …. 99 ) )";
             // 
-            // textBox7
+            // safetyRatingRequirementTextBox
             // 
-            this.textBox7.Location = new System.Drawing.Point(254, 225);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(238, 20);
-            this.textBox7.TabIndex = 23;
+            this.safetyRatingRequirementTextBox.Location = new System.Drawing.Point(254, 225);
+            this.safetyRatingRequirementTextBox.Name = "safetyRatingRequirementTextBox";
+            this.safetyRatingRequirementTextBox.Size = new System.Drawing.Size(238, 20);
+            this.safetyRatingRequirementTextBox.TabIndex = 23;
             // 
             // label21
             // 
@@ -426,18 +447,18 @@
             this.label21.TabIndex = 22;
             this.label21.Text = "Safety Rating Requirement ";
             // 
-            // comboBox1
+            // trackMedalsRequirementComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.trackMedalsRequirementComboBox.FormattingEnabled = true;
+            this.trackMedalsRequirementComboBox.Items.AddRange(new object[] {
             "0",
             "1",
             "2",
             "3"});
-            this.comboBox1.Location = new System.Drawing.Point(254, 184);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 21;
+            this.trackMedalsRequirementComboBox.Location = new System.Drawing.Point(254, 184);
+            this.trackMedalsRequirementComboBox.Name = "trackMedalsRequirementComboBox";
+            this.trackMedalsRequirementComboBox.Size = new System.Drawing.Size(121, 21);
+            this.trackMedalsRequirementComboBox.TabIndex = 21;
             // 
             // label18
             // 
@@ -469,12 +490,12 @@
             this.label16.Text = "( Password required to enter this server. If a password is set, the server is dec" +
     "lared “Private Multiplayer” )";
             // 
-            // textBox6
+            // passwordTextBox
             // 
-            this.textBox6.Location = new System.Drawing.Point(179, 99);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(313, 20);
-            this.textBox6.TabIndex = 16;
+            this.passwordTextBox.Location = new System.Drawing.Point(179, 99);
+            this.passwordTextBox.Name = "passwordTextBox";
+            this.passwordTextBox.Size = new System.Drawing.Size(313, 20);
+            this.passwordTextBox.TabIndex = 16;
             // 
             // label17
             // 
@@ -495,12 +516,12 @@
             this.label14.TabIndex = 14;
             this.label14.Text = "( Password to elevate via “Server admin commands” )";
             // 
-            // textBox5
+            // adminPasswordTextBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(179, 59);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(313, 20);
-            this.textBox5.TabIndex = 13;
+            this.adminPasswordTextBox.Location = new System.Drawing.Point(179, 59);
+            this.adminPasswordTextBox.Name = "adminPasswordTextBox";
+            this.adminPasswordTextBox.Size = new System.Drawing.Size(313, 20);
+            this.adminPasswordTextBox.TabIndex = 13;
             // 
             // label15
             // 
@@ -542,12 +563,76 @@
             // 
             // eventPage
             // 
+            this.eventPage.Controls.Add(this.label39);
+            this.eventPage.Controls.Add(this.weatherRandomnessTextBox);
+            this.eventPage.Controls.Add(this.label40);
+            this.eventPage.Controls.Add(this.label37);
+            this.eventPage.Controls.Add(this.rainTextBox);
+            this.eventPage.Controls.Add(this.label38);
+            this.eventPage.Controls.Add(this.label35);
+            this.eventPage.Controls.Add(this.cloudLevelTextBox);
+            this.eventPage.Controls.Add(this.label36);
+            this.eventPage.Controls.Add(this.label33);
+            this.eventPage.Controls.Add(this.ambientTempTextBox);
+            this.eventPage.Controls.Add(this.label34);
+            this.eventPage.Controls.Add(this.label31);
+            this.eventPage.Controls.Add(this.sessionOverTimeSecondsTextBox);
+            this.eventPage.Controls.Add(this.label32);
+            this.eventPage.Controls.Add(this.label29);
+            this.eventPage.Controls.Add(this.preRaceWaitingTimeSecondsTextBox);
+            this.eventPage.Controls.Add(this.label30);
+            this.eventPage.Controls.Add(this.trackComboBox);
+            this.eventPage.Controls.Add(this.label28);
             this.eventPage.Location = new System.Drawing.Point(4, 22);
             this.eventPage.Name = "eventPage";
             this.eventPage.Size = new System.Drawing.Size(1392, 716);
             this.eventPage.TabIndex = 4;
             this.eventPage.Text = "Event";
             this.eventPage.UseVisualStyleBackColor = true;
+            // 
+            // trackComboBox
+            // 
+            this.trackComboBox.FormattingEnabled = true;
+            this.trackComboBox.Items.AddRange(new object[] {
+            "barcelona \tbarcelona_2019",
+            "brands_hatch",
+            "brands_hatch_2019",
+            "kyalami_2019",
+            "laguna_seca_2019",
+            "hungaroring",
+            "hungaroring_2019",
+            "misano",
+            "misano_2019",
+            "monza",
+            "monza_2019",
+            "mount_panorama_2019",
+            "nurburgring",
+            "nurburgring_2019",
+            "paul_ricard",
+            "paul_ricard_2019",
+            "silverstone",
+            "silverstone_2019",
+            "spa",
+            "spa_2019",
+            "suzuka_2019",
+            "zolder",
+            "zolder_2019",
+            "zandvoort",
+            "zandvoort_2019 "});
+            this.trackComboBox.Location = new System.Drawing.Point(253, 23);
+            this.trackComboBox.Name = "trackComboBox";
+            this.trackComboBox.Size = new System.Drawing.Size(121, 21);
+            this.trackComboBox.TabIndex = 23;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(14, 23);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(48, 16);
+            this.label28.TabIndex = 22;
+            this.label28.Text = "Track";
             // 
             // trackPage
             // 
@@ -598,47 +683,47 @@
             // newServerConfigurationMenuItem
             // 
             this.newServerConfigurationMenuItem.Name = "newServerConfigurationMenuItem";
-            this.newServerConfigurationMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newServerConfigurationMenuItem.Size = new System.Drawing.Size(114, 22);
             this.newServerConfigurationMenuItem.Text = "New";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(111, 6);
             // 
             // saveServerConfigurationMenuItem
             // 
             this.saveServerConfigurationMenuItem.Name = "saveServerConfigurationMenuItem";
-            this.saveServerConfigurationMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveServerConfigurationMenuItem.Size = new System.Drawing.Size(114, 22);
             this.saveServerConfigurationMenuItem.Text = "Save";
             this.saveServerConfigurationMenuItem.Click += new System.EventHandler(this.saveServerConfigurationMenuItem_Click);
             // 
             // saveAsServerConfigurationMenuItem
             // 
             this.saveAsServerConfigurationMenuItem.Name = "saveAsServerConfigurationMenuItem";
-            this.saveAsServerConfigurationMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveAsServerConfigurationMenuItem.Size = new System.Drawing.Size(114, 22);
             this.saveAsServerConfigurationMenuItem.Text = "Save As";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(111, 6);
             // 
             // openServerConfigurationMenuItem
             // 
             this.openServerConfigurationMenuItem.Name = "openServerConfigurationMenuItem";
-            this.openServerConfigurationMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openServerConfigurationMenuItem.Size = new System.Drawing.Size(114, 22);
             this.openServerConfigurationMenuItem.Text = "Open";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(111, 6);
             // 
             // exitMenuItem
             // 
             this.exitMenuItem.Name = "exitMenuItem";
-            this.exitMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitMenuItem.Size = new System.Drawing.Size(114, 22);
             this.exitMenuItem.Text = "Exit";
             // 
             // serverToolStripMenuItem
@@ -650,6 +735,13 @@
             this.serverToolStripMenuItem.Name = "serverToolStripMenuItem";
             this.serverToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
             this.serverToolStripMenuItem.Text = "Server";
+            // 
+            // applyServerConfigurationMenuItem
+            // 
+            this.applyServerConfigurationMenuItem.Name = "applyServerConfigurationMenuItem";
+            this.applyServerConfigurationMenuItem.Size = new System.Drawing.Size(217, 22);
+            this.applyServerConfigurationMenuItem.Text = "Apply Server Configuration";
+            this.applyServerConfigurationMenuItem.Click += new System.EventHandler(this.applyServerConfigurationMenuItem_Click);
             // 
             // startServerToolStripMenuItem
             // 
@@ -708,12 +800,161 @@
             this.panel1.Size = new System.Drawing.Size(264, 39);
             this.panel1.TabIndex = 5;
             // 
-            // applyServerConfigurationMenuItem
+            // label29
             // 
-            this.applyServerConfigurationMenuItem.Name = "applyServerConfigurationMenuItem";
-            this.applyServerConfigurationMenuItem.Size = new System.Drawing.Size(217, 22);
-            this.applyServerConfigurationMenuItem.Text = "Apply Server Configuration";
-            this.applyServerConfigurationMenuItem.Click += new System.EventHandler(this.applyServerConfigurationMenuItem_Click);
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(399, 75);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(281, 13);
+            this.label29.TabIndex = 26;
+            this.label29.Text = "( Preparation time before a race. Cannot be less than 30s )";
+            // 
+            // preRaceWaitingTimeSecondsTextBox
+            // 
+            this.preRaceWaitingTimeSecondsTextBox.Location = new System.Drawing.Point(253, 72);
+            this.preRaceWaitingTimeSecondsTextBox.Name = "preRaceWaitingTimeSecondsTextBox";
+            this.preRaceWaitingTimeSecondsTextBox.Size = new System.Drawing.Size(121, 20);
+            this.preRaceWaitingTimeSecondsTextBox.TabIndex = 25;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(14, 73);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(233, 16);
+            this.label30.TabIndex = 24;
+            this.label30.Text = "Pre Race Waiting Time Seconds";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(399, 118);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(349, 13);
+            this.label31.TabIndex = 29;
+            this.label31.Text = "( Time after that a session is forcibly closing after the timer reached 0:00 )";
+            // 
+            // sessionOverTimeSecondsTextBox
+            // 
+            this.sessionOverTimeSecondsTextBox.Location = new System.Drawing.Point(253, 115);
+            this.sessionOverTimeSecondsTextBox.Name = "sessionOverTimeSecondsTextBox";
+            this.sessionOverTimeSecondsTextBox.Size = new System.Drawing.Size(121, 20);
+            this.sessionOverTimeSecondsTextBox.TabIndex = 28;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(14, 116);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(205, 16);
+            this.label32.TabIndex = 27;
+            this.label32.Text = "Session Over Time Seconds";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(399, 157);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(224, 13);
+            this.label33.TabIndex = 32;
+            this.label33.Text = "( Sets the baseline ambient temperature in °C )";
+            // 
+            // ambientTempTextBox
+            // 
+            this.ambientTempTextBox.Location = new System.Drawing.Point(253, 154);
+            this.ambientTempTextBox.Name = "ambientTempTextBox";
+            this.ambientTempTextBox.Size = new System.Drawing.Size(121, 20);
+            this.ambientTempTextBox.TabIndex = 31;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(14, 155);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(108, 16);
+            this.label34.TabIndex = 30;
+            this.label34.Text = "Ambient Temp";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(399, 197);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(132, 13);
+            this.label35.TabIndex = 35;
+            this.label35.Text = "( Values (0.0, 0.1, …. 1.0)  )";
+            // 
+            // cloudLevelTextBox
+            // 
+            this.cloudLevelTextBox.Location = new System.Drawing.Point(253, 194);
+            this.cloudLevelTextBox.Name = "cloudLevelTextBox";
+            this.cloudLevelTextBox.Size = new System.Drawing.Size(121, 20);
+            this.cloudLevelTextBox.TabIndex = 34;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(14, 195);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(90, 16);
+            this.label36.TabIndex = 33;
+            this.label36.Text = "Cloud Level";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(399, 237);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(132, 13);
+            this.label37.TabIndex = 38;
+            this.label37.Text = "( Values (0.0, 0.1, …. 1.0)  )";
+            // 
+            // rainTextBox
+            // 
+            this.rainTextBox.Location = new System.Drawing.Point(253, 234);
+            this.rainTextBox.Name = "rainTextBox";
+            this.rainTextBox.Size = new System.Drawing.Size(121, 20);
+            this.rainTextBox.TabIndex = 37;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(14, 235);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(40, 16);
+            this.label38.TabIndex = 36;
+            this.label38.Text = "Rain";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(399, 276);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(333, 13);
+            this.label39.TabIndex = 41;
+            this.label39.Text = "( 0 = static weather; 1-4 fairly realistic weather; 5-7 more sensational  )";
+            // 
+            // weatherRandomnessTextBox
+            // 
+            this.weatherRandomnessTextBox.Location = new System.Drawing.Point(253, 273);
+            this.weatherRandomnessTextBox.Name = "weatherRandomnessTextBox";
+            this.weatherRandomnessTextBox.Size = new System.Drawing.Size(121, 20);
+            this.weatherRandomnessTextBox.TabIndex = 40;
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Location = new System.Drawing.Point(14, 274);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(161, 16);
+            this.label40.TabIndex = 39;
+            this.label40.Text = "Weather Randomness";
             // 
             // Form1
             // 
@@ -732,6 +973,8 @@
             this.generalConfigurationPage.PerformLayout();
             this.sessionPage.ResumeLayout(false);
             this.sessionPage.PerformLayout();
+            this.eventPage.ResumeLayout(false);
+            this.eventPage.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -786,27 +1029,47 @@
         private System.Windows.Forms.TextBox serverNameTextBox;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox adminPasswordTextBox;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox passwordTextBox;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox trackMedalsRequirementComboBox;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox safetyRatingRequirementTextBox;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox racecraftRatingRequirementTextBox;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox spectatorPasswordTextBox;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox maximumCarSlotsTextBox;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.ToolStripMenuItem applyServerConfigurationMenuItem;
+        private System.Windows.Forms.ComboBox trackComboBox;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.TextBox preRaceWaitingTimeSecondsTextBox;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.TextBox sessionOverTimeSecondsTextBox;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.TextBox ambientTempTextBox;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.TextBox cloudLevelTextBox;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.TextBox rainTextBox;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.TextBox weatherRandomnessTextBox;
+        private System.Windows.Forms.Label label40;
     }
 }
 
