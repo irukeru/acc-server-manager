@@ -8,3 +8,6 @@ C:\Users\irukeru\source\repos\ACC Server Manager for Ankarada Icmece\ACC Server 
 C:\Users\irukeru\source\repos\ACC Server Manager for Ankarada Icmece\ACC Server Manager for Ankarada Icmece\obj\Debug\ACC Server Manager for Ankarada Icmece.csproj.CoreCompileInputs.cache
 C:\Users\irukeru\source\repos\ACC Server Manager for Ankarada Icmece\ACC Server Manager for Ankarada Icmece\obj\Debug\ACC Server Manager for Ankarada Icmece.exe
 C:\Users\irukeru\source\repos\ACC Server Manager for Ankarada Icmece\ACC Server Manager for Ankarada Icmece\obj\Debug\ACC Server Manager for Ankarada Icmece.pdb
+C:\Users\irukeru\source\repos\ACC Server Manager for Ankarada Icmece\ACC Server Manager for Ankarada Icmece\bin\Debug\Newtonsoft.Json.dll
+C:\Users\irukeru\source\repos\ACC Server Manager for Ankarada Icmece\ACC Server Manager for Ankarada Icmece\bin\Debug\Newtonsoft.Json.xml
+C:\Users\irukeru\source\repos\ACC Server Manager for Ankarada Icmece\ACC Server Manager for Ankarada Icmece\obj\Debug\ACC Server Manager for Ankarada Icmece.csproj.CopyComplete
